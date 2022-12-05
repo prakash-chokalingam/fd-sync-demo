@@ -1,0 +1,18 @@
+{
+    "bg_color": "#f3f5f7",
+    "header_color": "#ffffff",
+    "help_center_color": "#f3f5f7",
+    "footer_color": "#183247",
+    "tab_color": "#ffffff",
+    "tab_hover_color": "#02b875",
+    "btn_background": "#f3f5f7",
+    "btn_primary_background": "#02b875",
+    "base_font": "Source Sans Pro",
+    "text_color": "#183247",
+    "headings_font": "Poppins",
+    "headings_color": "#183247",
+    "link_color": "#183247",
+    "link_color_hover": "#2753d7",
+    "input_focus_ring_color": "#02B875",
+    "non_responsive": false
+}

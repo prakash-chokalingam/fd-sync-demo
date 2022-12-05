@@ -1,0 +1,18 @@
+<section class="main content rounded-6 min-height-on-desktop fc-solution-category" id="solutions-category-{{ category.id }}">
+	<div class="breadcrumb">
+		<a href="{{ portal.solutions_home_url }}">{% translate portal.solutions_home %}</a>
+	</div>
+	<h2 class="heading">{{ category.name | h}}</h2>
+	<div class="cs-g-c">
+		{% for folder in category.folders %}
+			{% if folder.entity_collection.size > 0 %}
+				<section class="cs-g article-list">
+					<div class="list-lead">
+						{{ folder | link_to_folder_with_count }}
+					</div>
+					{{ folder | sub_folder_article_list:5 }}
+				</section>
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>
